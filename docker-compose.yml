@@ -1,0 +1,7 @@
+version: '3'
+services:
+  log4j-shell-poc:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    network_mode: host
